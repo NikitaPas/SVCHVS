@@ -1,12 +1,25 @@
 ## CV Nikita Pasiukov
 
-1. Nikita Pasiukov
-2. Telegram: @NikitaPas
-e-mail: n.pasiukov@gmail.com
-3. About me: I'm a student of the Mogilev University BRU. I want to become a front-end developer. In the process of studying html, css, js (react, node) and C# in the university.
-4. html, css, js and Csharp, currently studying react js and node js.
-5. in the process.
-6. [https://github.com/NikitaPas?tab=repositories](Git)
-7. RS school stage 1.
-8. A2.
+## Contacts
+- Telegram: @NikitaPas
+- e-mail: n.pasiukov@gmail.com
+## About me:
+- I'm a student of the Mogilev University BRU. I want to become a front-end developer. In the process of studying html, css, js (react, node).
+## Skills
+- HTML 
+- CSS 
+- JavaScript
+- C#
+- Git
+- React
+- Node
+- C++
+## Code examples
+
+## My projects
+- [Pet project from RS school](https://github.com/NikitaPas/shelter-pet-project-). In this project, I practiced adaptive layout, pixel perfect layout, and also practiced knowledge in SCSS.
+## Courses and trainings
+- RS school stage 1.
+## Additional Information
+- English Level: Pre-Intermediate (A2)
 9. in the process.
