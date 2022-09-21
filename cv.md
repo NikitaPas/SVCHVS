@@ -1,5 +1,5 @@
 ## CV Nikita Pasiukov
-
+![Картинка](https://github.com/NikitaPas/SVCHVS/blob/Lab1_Markdown_%26_Git/images.jpg)
 ## Contacts
 - Telegram: @NikitaPas
 - e-mail: n.pasiukov@gmail.com
@@ -22,4 +22,4 @@
 - RS school stage 1.
 ## Additional Information
 - English Level: Pre-Intermediate (A2)
-9. in the process.
+
