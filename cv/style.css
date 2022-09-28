@@ -1,5 +1,51 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-        
+    max-width: 1280px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left_block{
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    background-color: rgb(50, 59, 76);
+    width: 29%;
+    height: 100%;
+}
+.main_block{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+.information__left{
+   margin-left: 15%;
+   margin-top: 15%;
+   color: white;
+}
+
+.avatar__img{
+}
+
+.avatar__img img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.section_left{
+    margin-bottom: 50px;
+}
+.section_left h1{
+    padding-bottom: 15px;
+    border-bottom: 2px solid;
+    font-size: 26px;
+}
+.section_left p{
+    font-size: 14px;
 }
