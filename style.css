@@ -22,14 +22,16 @@ ul{
     margin: 0;
 }
 li:nth-child(2){
+    font-size: 24px;
     padding-left: 10px;
+    padding-top: 15px;
     color: white;
 }
 
 .header_item{
     border-right: 1px solid #4D4D4D;
     list-style-type: none;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 30px 16px 30px;
 }
 
 .header_item a{
@@ -43,3 +45,31 @@ li:nth-child(2){
     margin-top: 17px;
 }
 
+li:nth-child(6){
+    margin-left: 330px;
+    border-left: 1px solid #4D4D4D;
+}
+
+.main_container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background: url(img/imgg.png) no-repeat;
+    background-size: cover;
+}
+
+.main_info{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.main_info h1{
+    padding-bottom: 36px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    margin: 0;
+    font-weight: 400;
+    font-size: 75px;
+    color: white;
+    text-transform: uppercase;
+}
