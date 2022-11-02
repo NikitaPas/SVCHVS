@@ -72,4 +72,72 @@ li:nth-child(6){
     font-size: 75px;
     color: white;
     text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.main_subtitle{
+    padding-top:30 ;
+    padding-bottom: 50px;
+    color: white;
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main_button{
+    margin-top: 10px;
+    text-align: center;
+   margin-bottom: 80px;
+}
+
+.main_button_link{
+    padding: 10px 17px 10px 17px;
+    border: 2px solid;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.main_button_link:hover{
+    background-color: black;
+}
+
+.main_buttons_down{
+    text-align: center;
+    padding-bottom: 21px;
+    margin-left: 49%;
+}
+
+
+.main_show_buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first_button{
+    width: 9px;
+    height: 9px;
+    border: 2px solid;
+    color: white;
+    background-color: white;
+    margin-right: 6px;
+}
+
+.second_button{
+    width: 9px;
+    height: 9px;
+    border: 2px solid;
+    margin-right: 6px;
+    color: rgba(255, 255, 255, 0.4);;
+    background-color: rgba(255, 255, 255, 0.4);;
+}
+
+.third_button{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 9px;
+    height: 9px;
+    border: 2px solid;
+    margin-right: 6px;
 }
