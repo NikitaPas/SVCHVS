@@ -147,4 +147,89 @@ li:nth-child(6){
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    background-color: #C7AA8B;
+}
+
+
+.grid_container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+   grid-template-rows: repeat(1, auto);
+}
+[class^="container_grid-"] {
+    /* Размещаем контейнеры по центру */
+    display: grid;
+    place-items: center;
+}
+
+.container_grid-1 h2{
+    margin-top: 100px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.container_grid-2 h2{
+    margin-top: 100px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.container_grid-3 h2{
+    margin-top: 100px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+[class^="container_grid-"] img{
+
+}
+
+[class^="container_grid-"] p{
+    padding-left: 10px;
+    margin-top: 46px;
+    margin-bottom: 83px;
+}
+
+.design_container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(/img/design.png);
+}
+
+.title_design{
+    padding-top: 98px;
+    padding-bottom: 123px;
+    text-align: left;
+    width: 940px;
+    margin-left: 17.5%;
+    position: relative;
+
+}
+
+.title_design h1{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 55px;
+    color: #C7AA8B;
+}
+
+.title_design:before {
+    position:absolute;
+    top: 260px;
+    color: #C7AA8B;
+    left:0px;
+    width:6%;
+    border-top:2px solid ;
+    content:" ";
 }
