@@ -301,3 +301,146 @@ li:nth-child(6){
 .team_link{
     list-style-type: none;
 }
+
+.testimonials_container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+}
+
+.title_testimonials{
+    padding-top: 73px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(50, 50, 50, 0.36);
+}
+
+hr{
+    border: none; /* Убираем границу */
+    background-color: rgba(50, 50, 50, 0.18);
+    color: rgba(50, 50, 50, 0.18);
+    width: 60px;
+    height: 2px;
+    margin-bottom: 27px;
+}
+
+.testimonials_flex{
+    display: flex;
+    max-width: 850px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.flex_block{
+    max-width: 425px;
+    padding: 0px 30px 20px 30px;
+    width: 100%;
+}
+
+.subtitle_testimonials{
+    text-align: center;
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4D4D4D;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+#second_block{
+    padding-top: 4px;
+    font-size: 15px;
+}
+
+.subtitle_testimonials_first{
+    margin-top: 4px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #C7AA8B;
+    margin-bottom: 87px;
+}
+
+.subtitle_testimonials_second{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    color: #C7AA8B;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container_footer{
+    margin: 0 auto;
+    padding-top: 55px;
+    max-width: 1440px;
+    width: 100%;
+    background-color: #323232;
+
+}
+
+.stone_agency{
+    margin-left: 8px;   
+}
+
+.stone_agency img{
+    margin-top: 9px;
+    position: absolute;
+}
+.stone_agency p {
+    padding-left: 30px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #858585;
+}
+
+.flex_footer{
+    justify-content: space-between;
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.get_button{
+    margin-right: 16px;
+    margin-top: 13px;
+    margin-bottom: 60px;
+}
+
+.get_button a{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 75px 10px 70px;
+    border: 2px solid;
+    text-decoration: none;
+    color: #C7AA8B;
+}
+
+
+.adress{
+    margin-right: 11px;
+}
+.adress p {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #858585;
+}
