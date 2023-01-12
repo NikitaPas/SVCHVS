@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Montserrat';
+  transition: all 0.3s;
+}
+
+.wrapper1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 934px){
+  .wrapper1{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
