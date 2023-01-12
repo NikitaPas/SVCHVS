@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "name": "Iphone10",
+        "price": 1000,
+        "img": "https://app-minsk.by/files/items/2262/icon_480x390.jpg",
+        "count": 2
+    },
+    {
+        "id": 1,
+        "name": "Iphone 12 mini",
+        "price": 1200,
+        "img": "https://mobistore.by/files/products/1/apple-iphone-12-mini-64gb-pr12320_1.800x600w.jpg?93189d4110459bb8ef3273ce81b90392",
+        "count": 3
+    },
+    {
+        "id": 2,
+        "name": "Iphone 14 Pro Max",
+        "price": 13,
+        "img": "https://5zv.by/image/cache/foto_edit/iph_14_pro_pr_max%20(12)-1000x1000.jpg",
+        "count": 4
+    },
+    {
+        "id": 3,
+        "name": "Samsung S20",
+        "price": 1200,
+        "img": "https://avatars.mds.yandex.net/get-mpic/1912364/img_id8621119496124949163.png/orig",
+        "count": 3
+    },
+    {
+        "id": 4,
+        "name": "Samsung S20 ultra",
+        "price": 1200,
+        "img": "https://strelaonline.by/upload/resize_cache/iblock/083/750_750_10fdbf79040bc58a86e0870ec625a0d57/8mel8q1djx92i3jja4iuaj59tvdvy3vc.jpeg",
+        "count": 3
+    }
+    
+]

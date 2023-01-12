@@ -1,0 +1,9 @@
+.content{
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 2%;
+}
