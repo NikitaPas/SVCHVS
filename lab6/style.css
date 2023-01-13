@@ -1,0 +1,646 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header_container{
+    max-width: 1440px;
+    width: 100%;
+    background-color: #323232;
+    margin: 0 auto;
+   
+}
+.header_nav{
+    margin-left: 14.5%;
+}
+
+.header_list{
+    display: flex;
+}
+ul{
+    margin: 0;
+}
+li:nth-child(2){
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: white;
+}
+
+.header_item{
+    border-right: 1px solid #4D4D4D;
+    list-style-type: none;
+    padding: 20px 30px 16px 30px;
+}
+
+.header_item a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.header_item_logo{
+    list-style-type: none;
+    margin-top: 17px;
+}
+
+li:nth-child(6){
+    margin-left: 335px;
+    border-left: 1px solid #4D4D4D;
+    padding-right: 23px;
+}
+
+li:nth-child(7){
+    padding-left: 23px ;
+}
+
+.main_container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background: url(img/imgg.png) no-repeat;
+    background-size: cover;
+}
+
+.main_info{
+    padding-top: 62px;
+    text-align: center;
+}
+
+.main_info h1{
+    padding-bottom: 36px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    margin: 0;
+    line-height: 75px;
+    font-weight: 400;
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.main_subtitle{
+    padding-top:30 ;
+    padding-bottom: 40.5px;
+    color: white;
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main_button{
+    margin-top: 10px;
+    text-align: center;
+   margin-bottom: 95px;
+}
+
+.main_button_link{
+    padding: 10px 17px 10px 17px;
+    border: 2px solid;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.main_button_link:hover{
+    background-color: black;
+}
+
+.main_buttons_down{
+    text-align: center;
+    padding-bottom: 21px;
+    margin-left: 48.7%;
+}
+
+
+.main_show_buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first_button{
+    width: 5px;
+    height: 5px;
+    border: 2px solid;
+    color: white;
+    background-color: white;
+    margin-right: 6px;
+}
+
+.second_button{
+    width: 5px;
+    height: 5px;
+    border: 2px solid;
+    margin-right: 6px;
+    color: rgba(255, 255, 255, 0.4);;
+    background-color: rgba(255, 255, 255, 0.4);;
+}
+
+.third_button{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 5px;
+    height: 5px;
+    border: 2px solid;
+    margin-right: 6px;
+}
+
+.research_grid_container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #C7AA8B;
+}
+
+
+.grid_container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+   grid-template-rows: repeat(1, auto);
+}
+[class^="container_grid-"] {
+    /* Размещаем контейнеры по центру */
+    display: grid;
+    place-items: center;
+}
+
+.container_grid-1 h2{
+    margin-top: 100px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.container_grid-2 h2{
+    margin-top: 100px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.container_grid-3 h2{
+    margin-top: 100px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+[class^="container_grid-"] img{
+
+}
+
+[class^="container_grid-"] p{
+    padding-left: 10px;
+    margin-top: 46px;
+    margin-bottom: 83px;
+}
+
+.design_container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(img/design.png);
+}
+
+.title_design{
+    padding-top: 98px;
+    padding-bottom: 123px;
+    text-align: left;
+    width: 940px;
+    margin-left: 17.5%;
+    position: relative;
+}
+
+.title_design h1{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 55px;
+    color: #C7AA8B;
+}
+
+.title_design:before {
+    position:absolute;
+    top: 260px;
+    color: #C7AA8B;
+    left:0px;
+    width:6%;
+    border-top:2px solid ;
+    content:" ";
+}
+
+.team_container{
+    max-width: 1440px;
+    width: 100%;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+
+.title_team{
+    margin-left: 250px;
+    
+}
+
+.team_grid{
+    padding-top: 80px;
+    max-width: 460px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 240px);
+   grid-template-rows: repeat(1, auto);
+}
+[class^="team_grid-"] {
+    /* Размещаем контейнеры по центру */
+    display: grid;
+}
+
+.title_team{
+    padding-top: 45px;
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #4D4D4D;
+}
+
+.team_name{
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 3px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+}
+
+.team_subtitle{
+    margin: 0;
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #4D4D4D;
+}
+
+.team_links{
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+.team_links li{
+    display: inline;
+}
+
+.team_link{
+    list-style-type: none;
+}
+
+.testimonials_container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+}
+
+.title_testimonials{
+    padding-top: 73px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(50, 50, 50, 0.36);
+}
+
+hr{
+    border: none; /* Убираем границу */
+    background-color: rgba(50, 50, 50, 0.18);
+    color: rgba(50, 50, 50, 0.18);
+    width: 60px;
+    height: 2px;
+    margin-bottom: 27px;
+}
+
+.testimonials_flex{
+    display: flex;
+    max-width: 850px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.flex_block{
+    max-width: 425px;
+    padding: 0px 30px 20px 30px;
+    width: 100%;
+}
+
+.subtitle_testimonials{
+    text-align: center;
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4D4D4D;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+#second_block{
+    padding-top: 4px;
+    font-size: 15px;
+}
+
+.subtitle_testimonials_first{
+    margin-top: 4px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #C7AA8B;
+    margin-bottom: 87px;
+}
+
+.subtitle_testimonials_second{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    color: #C7AA8B;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container_footer{
+    margin: 0 auto;
+    padding-top: 55px;
+    max-width: 1440px;
+    width: 100%;
+    background-color: #323232;
+
+}
+
+.stone_agency{
+    margin-left: 8px;   
+}
+
+.stone_agency img{
+    margin-top: 9px;
+    position: absolute;
+}
+.stone_agency p {
+    padding-left: 30px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #858585;
+}
+
+.flex_footer{
+    justify-content: space-between;
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.get_button{
+    margin-right: 16px;
+    margin-top: 13px;
+    margin-bottom: 60px;
+}
+
+.get_button a{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 75px 10px 70px;
+    border: 2px solid;
+    text-decoration: none;
+    color: #C7AA8B;
+}
+
+
+.adress{
+    margin-right: 11px;
+}
+.adress p {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #858585;
+}
+
+@media (max-width: 769px){
+    li:nth-child(6){
+        margin-left: 0px;
+        border-left: 1px solid #4D4D4D;
+        padding-right: 23px;
+    }
+    .research_grid_container{
+        max-width: 768px;
+        width: 100%;
+        background-color: #C7AA8B;
+    }
+    .grid_container{
+        padding-left: 100px;
+        max-width: 766px;
+        display: grid;
+        grid-template-columns: repeat(3, 180px);
+       grid-template-rows: repeat(1, auto);
+    }
+    [class^="container_grid-"] {
+        /* Размещаем контейнеры по центру */
+        display: grid;
+        place-items: left;
+    }
+    
+    .container_grid-1 h2{
+        margin-top: 100px;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .container_grid-2 h2{
+        margin-top: 100px;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 400;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .container_grid-3 h2{
+        margin-top: 100px;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        
+    }
+    
+    [class^="container_grid-"] img{
+    
+    }
+    
+    [class^="container_grid-"] p{
+        padding-left: 10px;
+        margin-top: 46px;
+        margin-bottom: 83px;
+    }
+    .title_design{
+        padding-top: 98px;
+        padding-bottom: 123px;
+        text-align: left;
+        width: 740px;
+        margin-left: 2%;
+        position: relative;
+    }
+    .title_design h1{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 55px;
+        color: #C7AA8B;
+    }
+    .team_grid{
+        padding-top: 80px;
+        max-width: 460px;
+        margin: 0;
+        margin-left: 35px;
+        display: grid;
+        grid-template-columns: repeat(3, 240px);
+       grid-template-rows: repeat(1, auto);
+    }
+    [class^="team_grid-"] {
+        /* Размещаем контейнеры по центру */
+        display: grid;
+    }
+    .title_team{
+        margin-left: 130px;
+        padding-top: 0;
+        position: absolute;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: #4D4D4D;
+    }
+}
+
+@media (max-width: 321px){
+    .grid_container{
+        padding-left: 50px;
+        max-width: 320px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+    }
+    .team_grid{
+        padding-top: 80px;
+        max-width: 460px;
+        margin: 0;
+        margin-left: 35px;
+        display: grid;
+        grid-template-columns: repeat(1, 240px);
+       grid-template-rows: repeat(1, auto);
+    }
+    .title_design{
+        padding-top: 98px;
+        padding-bottom: 123px;
+        text-align: left;
+        width: 320px;
+        margin-left: 0px;
+        position: relative;
+    }
+    
+    .title_design h1{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #C7AA8B;
+    }
+    .get_button{
+        margin-left: 6px;
+        margin-top: 13px;
+        margin-bottom: 60px;
+    }
+    
+    .get_button a{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 5px 5px 5px 5px;
+        border: 1px solid;
+        text-decoration: none;
+        color: #C7AA8B;
+    }
+    .stone_agency{
+        display: none;
+    }
+    .main_info h1{
+        font-size: 50px;
+    }
+    .header_list{
+        display: none;
+    }
+    #menu__toggle {
+        height: 80px;
+        opacity: 0;
+      }
+      /* стилизуем кнопку */
+      .menu__btn {
+        display: flex; /* используем flex для центрирования содержимого */
+        align-items: center;  /* центрируем содержимое кнопки */
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 50px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      /* добавляем "гамбургер" */
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: white;
+      }
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+}
